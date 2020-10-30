@@ -18,3 +18,124 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+p {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.header {
+  background-color: #262626;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+}
+
+.main {
+  display: flex;
+  padding: 50px;
+  position: relative;
+}
+
+.aside {
+  margin-right: 60px;
+}
+
+.aside-item {
+  width: 200px;
+  padding: 20px;
+}
+
+.about {
+  background-color: #f8f9fa;
+}
+
+.archives-links a {
+  display: block;
+}
+
+.article { 
+  margin-right: 40px;
+}
+
+.title {
+  width: 520px;
+  height: 170px;
+  line-height: 170px;
+  text-align: center;
+  background-image: url(../img/bg.png);
+}
+
+.card {
+  width: 520px;
+  padding: 30px;
+  border: 1px solid rgb(184 192 199);
+  border-radius: 0 0 5px 5px;
+}
+
+.card p:last-child {
+  margin-top: 20px;
+}
+
+.card a {
+  color: blue;
+  text-decoration: none;
+}
+
+.article1 {
+  margin-bottom: 20px;
+}
+
+.login-form {
+  width: 240px;
+  height: 210px;
+  margin: 0 20px;
+  background-color: whitesmoke;
+  position: absolute;
+  top: calc(50% - 110px);
+  right: 60px;
+}
+
+.form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form>input, .form button {
+  width: 200px;
+  height: 40px;
+  padding: 10px;
+  border: 0.5px solid #e8ebed;
+  border-radius: 2px;
+}
+
+.checkbox {
+  margin: 10px 0;
+}
+
+.sign-button {
+  color: white;
+  background-color: #047bfe;
+  border: none;
+  border-radius: 5px;
+}
+
+.footer {
+  height: 100px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
